@@ -2,7 +2,12 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+
+
+  <!-- Important for Responsiveness -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Adding Title -->
   <title>TinDog</title>
@@ -21,7 +26,6 @@
   <!-- Adding Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
 
 
   <!-- Adding Font Awesome -->
@@ -133,7 +137,7 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" >
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
@@ -182,34 +186,76 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 price-plan">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-dark price-button">Large button</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 price-plan">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Labrador</h3>
+          </div>
+          <div class="card-body">
+
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark price-button">Large button</button>
+           
+
+          </div>
+        </div>
+      </div>
 
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="col-sm-12 col-lg-4 price-plan">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Mastiff</h3>
+          </div>
+          <div class="card-body">
+
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark price-button">Large button</button>
+          </div>
+        </div>
+      </div>
 
 
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
 
   </section>
 
