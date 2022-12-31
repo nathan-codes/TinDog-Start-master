@@ -1,10 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
 
 #title {
     background-color: #ff4c68;
 }
+
+
+
+header {
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+
+}
+
+header img {
+    padding-top: 6rem;
+    transform: rotate(25deg);
+    margin-left: 2rem;
+
+}
+
+header h1 {
+    font-size: 3.7rem;
+    margin: 5rem 0 4rem 0;
+}
+
+header .btn {
+    border-radius: .3rem;
+}
+
+
+header ul li {
+    padding: 0 2rem;
+}
+
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
