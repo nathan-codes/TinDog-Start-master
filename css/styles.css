@@ -12,8 +12,9 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.7rem;
     line-height: 1.5;
+
 }
 
 
@@ -22,47 +23,73 @@ h1 {
 }
 
 
-
 #title {
+    color: white;
     background-color: #ff4c68;
 }
 
 
 
-header {
-    height: 100vh;
-    color: white;
-    overflow: hidden;
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 5rem;
 
-}
-
-header img {
-    padding-top: 6rem;
-    transform: rotate(25deg);
-    margin-left: 2rem;
-
-}
-
-header h1 {
-    font-size: 3.7rem;
-    margin: 5rem 0 4rem 0;
-}
-
-header .btn {
-    border-radius: .3rem;
-}
-
-
-header ul li {
-    padding: 0 2rem;
 }
 
 
 .navbar-brand {
     font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
+}
+
+nav ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 15px;
 }
 
 
 
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    border-radius: .3rem;
+}
+
+
+/* Title Image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 4rem;
+}
+
+
+
+/* Features Section */
+.feature {
+    padding: 7% 3%;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 7rem;
+    color: #ef8172;
+    padding: 0 0 2rem 0;
+}
+
+.feature i:hover{
+    color: #ff4c68;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.feature p{
+    padding: 0 15%;
+    color: #8f8f8f;
+}
