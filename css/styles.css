@@ -75,7 +75,7 @@ nav ul li {
 
 
     transform: rotate(25deg);
-    margin-left: 4rem;
+    margin-left: .5rem;
     position: absolute;
     max-width: 60%;
     
@@ -169,4 +169,36 @@ nav ul li {
 
 .price-plan {
     padding: 3% 2%;
+}
+
+
+/* Adding Media Queries for Responsiveness */
+
+@media (max-width:1133px) and (min-width:993px){
+    .title-img {
+    
+            max-width: 30%;
+            padding-left: 4rem;
+    
+        }
+}
+
+
+@media (max-width:992px){
+    .title-img{
+    
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 2rem;
+    }
 }
